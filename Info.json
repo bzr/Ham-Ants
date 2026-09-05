@@ -1,0 +1,8 @@
+{
+  "id": "enclosure-efhw",
+  "name": "QRP EFHW Transformer Enclosure",
+  "material": "PETG",
+  "infill": "20%",
+  "file": "enclosure.stl",
+  "notes": "Printed on Weedo Tina2 or similar small-bed printer. Weather-resistant PETG recommended."
+}
