@@ -1,0 +1,21 @@
+[
+  {
+    "id": "efhw-4010",
+    "name": "40m-10m QRP End-Fed Half-Wave (EFHW)",
+    "powerRating": "5W QRP",
+    "bom": [
+      "FT140-43 Toroid Core",
+      "22 AWG Enameled Copper Wire (approx. 4 ft)",
+      "100pF 1kV Ceramic Capacitor",
+      "approx. 66 ft 26AWG Silicone Wire",
+      "BNC Female Panel Mount Connector",
+      "3D Printed Enclosure"
+    ],
+    "assemblySteps": [
+      "Wind 2 primary turns and 14 secondary turns on the FT140-43 core (1:49 impedance transformer).",
+      "Solder the 100pF capacitor across the primary side to compensate for high-band reactance.",
+      "Mount the BNC connector and transformer board inside the enclosure.",
+      "Attach 66 ft wire radiating element and tune using an antenna analyzer."
+    ]
+  }
+]
