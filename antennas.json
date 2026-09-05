@@ -5,13 +5,23 @@
     "powerRating": "5W QRP",
     "bom": [
       "FT140-43 Toroid Core",
-      "24 AWG Enameled Copper Wire (approx. 4 ft)",
+      "22 AWG Enameled Copper Wire (approx. 4 ft)",
       "100pF 1kV Ceramic Capacitor",
       "approx. 66 ft 26AWG Silicone Wire",
-      "BNC Female Panel Mount Connector",
-      "3D Printed Enclosure"
+      "BNC Female Panel Mount Connector"
+    ],
+    "printedParts": [
+      "Enclosure Body (PETG, 20% Infill)",
+      "Enclosure Lid (PETG, 20% Infill)",
+      "Toroid Mounting Cradle"
+    ],
+    "hardware": [
+      "4x M3 x 10mm Stainless Steel Bolts",
+      "4x M3 Heat-Set Threaded Inserts",
+      "1x Stainless Steel Strain Relief Carabiner Clip"
     ],
     "assemblySteps": [
+      "Insert M3 heat-set inserts into enclosure body using a soldering iron.",
       "Wind 2 primary turns and 14 secondary turns on the FT140-43 core (1:49 impedance transformer).",
       "Solder the 100pF capacitor across the primary side to compensate for high-band reactance.",
       "Mount the BNC connector and transformer board inside the enclosure.",
